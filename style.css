@@ -1,0 +1,50 @@
+.inline{
+    border-width: 1px 3px 5px 8px;
+    border-style: solid dotted dashed;
+    display: inline;
+}
+
+.block {
+    /* border: 1px solid red */
+    /* border-width */
+    /* border-style */
+    /* border-color */
+    /* border-bottom */
+    border: solid red 4px;
+    display: block;
+}
+
+.width_height {
+    border: solid;
+    /* some properties of width and height */
+    min-width: 200px;
+    width: 300px;
+    max-width: 500px;
+    min-height: 200px;
+    height: 300px;
+    max-height: 500px;
+}
+
+.margin {
+    /* some properties of margin */
+    border: solid;
+    /* margin-top */
+    /* margin-bottom */
+    /* margin-left */
+    /* margin-right */
+    /* margin: auto; */
+    margin: 30px 10px 20px 40px;
+        /* top, right, bottom, left */
+}
+
+.padding {
+    /* some properties of padding */
+    border: solid;
+    /* padding */
+    /* padding-top */
+    /* padding-right */
+    /* padding-bottom */
+    /* padding-left */
+    padding: 10px 70px ;
+    /* the first is for the vertical axis and the second for the horizontal axis */
+}

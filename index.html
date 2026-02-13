@@ -7,6 +7,59 @@
     <title>aprendendo CSS</title>
 </head>
 <body>
+    <!-- With this, we can see some differences in how the display property affects the presentation of your site -->
+    <h1 class="block">
+        display block
+    </h1>
+    <h1 class="block">
+        display block
+    </h1>
+    <div class="inline">
+        display inline
+    </div>
+    <div class="inline">
+        display inline
+    </div>
+    <div>-----------</div>
+    <div class="width_height">
+        Width and Height are the properties that determine the dimensions of a box. While Width sets the horizontal size, Height defines the vertical space.
+
+        In CSS, height is usually not defined explicitly; this allows the box to grow naturally with its content. However, there are several ways to control these dimensions using constraints:
+
+        min-width / min-height: Sets a minimum size, preventing the box from becoming too small.
+
+        max-width / max-height: Sets a maximum limit, ensuring the box does not exceed a certain size.
+    </div>
+    <div class="margin">
+        Margin represents the outer space of a box,     creating distance between it and other elements.
+
+        A unique behavior of this property is Margin Collapse. This occurs when the vertical margins of two adjacent boxes meet; instead of being added together, they "overlap." For example, if two boxes with a 30px margin meet, the resulting gap will be 30px, not 60px.
+
+        Margin is also a shorthand property, which means it allows you to set all four sides at once instead of defining them individually:
+
+        margin-top
+
+        margin-bottom
+
+        margin-left
+
+        margin-right
+    </div>
+    <div class="padding">
+        Padding is the internal space of a box. It creates a "cushion" between the content (like text or an image) and the element's border.
+
+        There is an important rule to remember: it is not recommended to use vertical padding on inline elements. Since inline elements do not affect the line height of the document, adding padding to them can cause the content to overlap with other lines without moving them.
+
+        Padding is also a shorthand property, allowing you to control the space on all four sides at once:
+
+        padding-top
+
+        padding-right
+
+        padding-bottom
+
+        padding-left
+    </div>
     
 </body>
 </html>
