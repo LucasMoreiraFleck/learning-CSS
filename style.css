@@ -1,3 +1,13 @@
+body {
+    background-color: aqua;
+    background-image: url("https://app.rocketseat.com.br/assets/logos/rocketseat-logo.svg");
+    background-repeat: no-repeat;
+    /* background-position: right; */
+    /* background-position: x y; */
+    background-position-x: right;
+    background-position-y: top;
+}
+
 .inline{
     border-width: 1px 3px 5px 8px;
     border-style: solid dotted dashed;
@@ -82,6 +92,10 @@
 }
 
 .web_fonts {
+    background-color: rgb(255, 0, 191);
+    background-image: url("https://app.rocketseat.com.br/assets/logos/rocketseat-logo.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
     border: solid;
     font-family: "Roboto", sans-serif;
   font-weight: 300;

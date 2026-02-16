@@ -40,6 +40,22 @@ Next, I will be learning about fonts and texts on CSS:
 
     The line-height will define the height of the lines on your text.
 
+Now I’m going to learn about colors and backgrounds, but I’ll just note down the property names.
+
+    background-color
+
+    background-image
+
+    background-repeat
+
+    background-position
+
+    background-size
+
+
+
+
+
     
 
 
