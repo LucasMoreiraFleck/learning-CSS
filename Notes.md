@@ -52,9 +52,19 @@ Now I’m going to learn about colors and backgrounds, but I’ll just note down
 
     background-size
 
+This time will learn about layouts on CSS
 
+    The position property is used to position boxes within the website. Its values are very important; therefore, I will describe them below:
 
+    Static: This value is the default for this property, so every element has this position by default.
 
+    Relative: this value makes the offset relative to itself; however, it still respects the normal flow.
+
+    Absolute: This value ignores the normal flow and is positioned relative to its nearest positioned ancestor (containing block). If no positioned ancestors exist, it is positioned relative to the initial containing block (the viewport/page).
+
+    Fixed: This value fixes the element to the screen relative to the initial containing block (the viewport). It stays in a specific position even after scrolling the page.
+
+    Sticky: This value is relative to the nearest scrolling ancestor. When the container has overflow: scroll (or auto), the element becomes fixed within that container's boundaries as you scroll.
 
     
 
