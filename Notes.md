@@ -67,7 +67,15 @@ This time will learn about layouts on CSS
     Sticky: This value is relative to the nearest scrolling ancestor. When the container has overflow: scroll (or auto), the element becomes fixed within that container's boundaries as you scroll.
 
     
+Now im learning about variables
 
+    CSS Variables (Custom Properties) allow you to store specific values to be reused throughout your stylesheet.
+
+    To create a variable, you only need to use two dashes (--) followed by the variable name. A variable can contain any value.
+
+    To use a variable, use the var() function followed by the variable name: var(--variable-name).
+
+    Variables follow the CSS cascade. When using a variable, the value is inherited from the nearest ancestor in the hierarchy. In this example, the div will inherit the value from main instead of body.
 
 
 
