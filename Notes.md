@@ -77,5 +77,22 @@ Now im learning about variables
 
     Variables follow the CSS cascade. When using a variable, the value is inherited from the nearest ancestor in the hierarchy. In this example, the div will inherit the value from main instead of body.
 
+Learning about pseudo-classes
 
+    A CSS pseudo-class is a keyword added to a selector that lets you style a specific state of the selected element(s). For example, the pseudo-class :hover can be used to select a button when a user's pointer hovers over the button and this selected button can then be styled.
 
+    The :hover pseudo-class is an interaction pseudo-class; therefore, it is activated whenever the user moves the cursor over an element.
+
+    The :not() pseudo-class is a functional pseudo-class used to select elements that do not match the selector provided within the parentheses. It applies the defined styles to all elements except those specified.
+
+    The :has() pseudo-class is a functional pseudo-class that allows an element to be styled based on its descendants or state. For example, you can style a parent element only when a child div is being hovered over.
+
+    The :root pseudo-class is a structural pseudo-class used to define the root context of your website. For example, it can be used to set a specific font or global variables to be applied throughout the entire site.
+
+Learning about pseudo-elements
+
+    The ::first-letter pseudo-element is used to apply styles specifically to the first letter of the first line of a block-level element.
+
+    The ::before pseudo-element is used to insert and style content before the actual content of an element.
+
+    The ::after pseudo-element is used to insert and style content after the actual content of an element.
