@@ -96,3 +96,24 @@ Learning about pseudo-elements
     The ::before pseudo-element is used to insert and style content before the actual content of an element.
 
     The ::after pseudo-element is used to insert and style content after the actual content of an element.
+
+Learning about flexbox
+
+    The flex value for the display property creates a flex container based on two axes. The 'Main Axis' is horizontal by default (left to right), and the 'Cross Axis' is vertical (top to bottom). In this layout, items are distributed and aligned along the main axis.
+
+    The flex-direction property changes the orientation of the main axis within a flex container.
+
+    The justify-content property defines how flex items are distributed and aligned along the main axis of the flex container.
+
+    The align-items property defines the default alignment for flex items along the cross axis of the flex container.
+
+    The flex-wrap property allows flex items to wrap onto multiple lines if they exceed the container's width. By default, it creates new rows (multi-line container), which can make using justify-content and align-items alone insufficient for controlling the space between these lines.
+
+    The flex-basis property defines the initial main size of a flex item before the remaining space is distributed according to the flex factors.
+
+    The flex-grow property sets the flex grow factor, which specifies how much of the flex container's positive free space, if any, should be assigned to the flex item's main size.
+
+    The flex-shrink property defines the ability of a flex item to shrink if necessary. Its default value is 1, meaning shrinking is enabled. Setting it to 0 prevents the item from shrinking below its initial size.
+
+    
+
